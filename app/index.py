@@ -134,7 +134,7 @@ for heading in heading_list:
         styles.add_style(heading, WD_STYLE_TYPE.PARAGRAPH, builtin = True)
 
 key_words = ["(^Điều.*[.].*)", "^Mục.*[.]$"]
-key_words_2_line = ["^Chương.*", "^BỘ LUẬT.*", "^LUẬT.*", "^NGHỊ ĐỊNH.*", "^Phần thứ.*"] 
+key_words_2_line = ["^Chương.*", "^BỘ LUẬT.*", "^LUẬT.*", "^NGHỊ ĐỊNH.*", "^Phần thứ.*"]
 
 count = 1
 for i in range(0, len(doc.paragraphs)):

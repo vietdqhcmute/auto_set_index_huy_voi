@@ -1,0 +1,11 @@
+version: "3.8"
+
+services:
+  python-app:
+    image: poetry
+    container_name: poetry-auto-index
+    working_dir: /app
+    volumes:
+      - ./app:/app
+    stdin_open: true
+    tty: true
